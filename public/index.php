@@ -1,5 +1,4 @@
 <?php
-include '../includes/header.php';
 include '../config/database.php';
 
 $stmt = $pdo->query("SELECT * FROM products");
@@ -8,13 +7,10 @@ $products = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <!DOCTYPE html>
 <html lang="es">
 
-<head>
-    <meta charset="UTF-8">
-    <title>BackGallery - Tienda</title>
-    <link rel="stylesheet" href="../assets/css/output.css">
-</head>
+<?php include '../includes/head.php' ?>
 
 <body>
+    <?php include '../includes/header.php'; ?>
     <h1>Bienvenido a BackGallery</h1>
     <div class="product-list">
         <?php foreach ($products as $product): ?>

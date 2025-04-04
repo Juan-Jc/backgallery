@@ -1,5 +1,5 @@
 <!-- footer.php -->
-<footer class="bg-blue-600 text-white py-6 mt-10">
+<footer class="bg-zinc-900 text-white py-6 mt-10">
     <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
         <!-- Información de contacto -->
         <div class="text-center md:text-left">

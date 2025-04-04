@@ -1,24 +1,24 @@
 <!-- header.php -->
-<header class="bg-blue-600 text-white shadow-md">
+<header class="bg-zinc-900 text-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <!-- Logo -->
         <div class="text-3xl font-bold">
-            <a href="index.php">BackGallery</a>
+            <a href="../public/index.php">BackGallery</a>
         </div>
 
         <!-- Barra de navegación -->
         <nav class="space-x-6">
-            <a href="index.php" class="hover:text-gray-200">Inicio</a>
-            <a href="products.php" class="hover:text-gray-200">Productos</a>
-            <a href="offers.php" class="hover:text-gray-200">Ofertas</a>
-            <a href="contact.php" class="hover:text-gray-200">Contacto</a>
+            <a href="../public/index.php" class="p-5 duration-400 rounded-lg hover:text-zinc-900 hover:bg-stone-50 hover:p-5 hover:rounded-lg">Inicio</a>
+            <a href="../public/products.php" class="p-5 duration-400 rounded-lg hover:text-zinc-900 hover:bg-stone-50 hover:p-5 hover:rounded-lg">Productos</a>
+            <a href="../public/oferta.php" class="p-5 duration-400 rounded-lg hover:text-zinc-900 hover:bg-stone-50 hover:p-5 hover:rounded-lg">Ofertas</a>
+            <a href="../public/contacto.php" class="p-5 duration-400 rounded-lg hover:text-zinc-900 hover:bg-stone-50 hover:p-5 hover:rounded-lg">Contacto</a>
 
             <!-- Carrito de compras y login -->
-            <a href="cart.php" class="hover:text-gray-200">Carrito</a>
+            <a href="cart.php" class="p-5 duration-400 rounded-lg hover:text-zinc-900 hover:bg-stone-50 hover:p-5 hover:rounded-lg">Carrito</a>
             <?php if (isset($_SESSION['user_id'])): ?>
-                <a href="logout.php" class="hover:text-gray-200">Cerrar sesión</a>
+                <a href="../public/logout.php" class="p-5 duration-400 rounded-lg hover:text-zinc-900 hover:bg-stone-50 hover:p-5 hover:rounded-lg">Cerrar sesión</a>
             <?php else: ?>
-                <a href="login.php" class="hover:text-gray-200">Iniciar sesión</a>
+                <a href="../public/login.php" class="p-5 duration-400 rounded-lg hover:text-zinc-900 hover:bg-stone-50 hover:p-5 hover:rounded-lg">Iniciar sesión</a>
             <?php endif; ?>
         </nav>
     </div>

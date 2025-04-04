@@ -1,5 +1,6 @@
 <?php
-include 'includes/header.php';
+include '../includes/head.php';
+include '../includes/header.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $name = $_POST['name'];
@@ -25,4 +26,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <button type="submit">Enviar mensaje</button>
 </form>
 
-<?php include 'includes/footer.php'; ?>
+<?php include '../includes/footer.php'; ?>
