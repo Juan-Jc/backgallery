@@ -1,0 +1,26 @@
+{
+  "name": "backgallery",
+  "version": "1.0.0",
+  "description": "/backgallery\r /assets\r /css - styles.css\r /js - script.js\r /config - database.php (configuración de la base de datos)\r /public - index.php (Página de inicio) - login.php - register.php - contact.php - admin.php (Panel de administración) - logout.php\r /includes - header.php (Cabecera del sitio) - footer.php (Pie de página del sitio) - db.php (Conexión a la base de datos)\r /templates - home.html (Vista de la página de inicio) - contact.html (Vista de la página de contacto) - product_list.html (Vista de los productos)\r /uploads - /images (Imágenes de productos, etc.)\r /models - Product.php (Modelo de producto) - User.php (Modelo de usuario) - Order.php (Modelo de orden)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juan-Jc/backgallery.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Juan-Jc/backgallery/issues"
+  },
+  "homepage": "https://github.com/Juan-Jc/backgallery#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.2",
+    "tailwindcss": "^4.1.2"
+  }
+}
