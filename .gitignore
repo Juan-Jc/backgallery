@@ -1,0 +1,29 @@
+# Node.js
+node_modules/
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Entornos de producción
+.env
+
+# Directorios de compilación
+dist/
+build/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# IDEs y editores de código
+.vscode/
+.idea/
+
+# Dependencias de producción si usas npm ci (opcional)
+package-lock.json
+yarn.lock
+
+# Archivos de configuración de entorno (si los usas)
+*.env
